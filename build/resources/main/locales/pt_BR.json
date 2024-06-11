@@ -1,0 +1,39 @@
+{
+    "label": "VaultUts",
+    "description": "",
+
+    "VaultStart.label": "VaultStart",
+    "VaultStart.description": "Inicia as configuraçoes com o Vault",
+    "VaultStart.name.label": "Forneça o nome da sessão",
+    "VaultStart.host.label": "Host",
+    "VaultStart.token.label": "Token",
+    "VaultStart.node_label": "Inicia vault em {{Host}}",
+
+    "GetCredential.label": "GetCredential",
+    "GetCredential.description": "Pega uma credencial do vault",
+    "GetCredential.name.label": "Forneça o nome da sessão",
+    "GetCredential.secret.label": "Secret",
+    "GetCredential.path.label": "Path",
+    "GetCredential.node_label": "Pega a credencial {{secret}}/{{path}}",
+
+    "PutKeyCredencial.label": "PutKeyCredencial",
+    "PutKeyCredencial.description": "Atualiza/Adciona uma key em uma determinada credencial",
+    "PutKeyCredencial.name.label": "Forneça o nome da sessão",
+    "PutKeyCredencial.secret.label": "Secret",
+    "PutKeyCredencial.path.label": "Path",
+    "PutKeyCredencial.key.label": "Chave",
+    "PutKeyCredencial.key.description": "Chave a ser atualizada/Criada",
+    "PutKeyCredencial.value.label": "Valor",
+    "PutKeyCredencial.value.description": "Novo Valor",
+    "PutKeyCredencial.node_label": "Atualiza a credencial {{secret}}/{{path}} Key: {{key}} com valor: {{value}}",
+
+    "DelKeyCredencial.label": "DelKeyCredencial",
+    "DelKeyCredencial.description": "Deleta uma key em uma determinada credencial",
+    "DelKeyCredencial.name.label": "Forneça o nome da sessão",
+    "DelKeyCredencialDelKeyCredencial.secret.label": "Secret",
+    "DelKeyCredencial.path.label": "Path",
+    "DelKeyCredencial.key.label": "Chave",
+    "DelKeyCredencial.key.description": "Chave a ser Removida",
+    "DelKeyCredencial.node_label": "Deleta a Chave {{key}} da credencial {{secret}}/{{path}}"
+
+}
